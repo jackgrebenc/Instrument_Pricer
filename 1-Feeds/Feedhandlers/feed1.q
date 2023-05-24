@@ -1,6 +1,6 @@
 //Mock Feedhandler -- legacy system
-//Start-up -- q 1-Feeds/Feedhandlers/feed1.q 
-//publish data once a second
+//SampleStart-up -- q 1-Feeds/Feedhandlers/feed1.q 
+//LEGACY SYSTEM -- publishes data once every 3 seconds in batches of 5
 
 /- Load in the generic feedhandler code first
 system"l 1-Feeds/feedhandler_utils.q";
