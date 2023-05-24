@@ -76,7 +76,7 @@ This was converted into latex (above in this readme file) and implemented using 
 #### Realtime Calc Engine
 - Assumption is all data is realtime/"T" data -- so dates do not need to be considered in the vwap
 #### Feeds
-- Fixed width string --> 20 character strings for every field (numeric & non-numeric)
+- Fixed width string --> 25 character strings for every field (numeric & non-numeric)
 - Fixed set of account/groups is limited to the 6 entries provided - does not go above accountRef ending in digit 6
 - Kept Feedhandlers segregated under different schemas for Feed1 & 2 under the assumption that the two systems may not always be aligned (i.e. new system - Feed2 could expand the schema in the future).
 - For MarketName -> FFM = FrankFurt, LDN = London
