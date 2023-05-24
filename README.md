@@ -86,7 +86,7 @@ This was converted into latex (shown at the top of the readMe file) and implemen
 - Assumption that the AccountReference table (Feed3) acts as an insert rather than overwriting downstream process on restart. The CalcEngine is desinged to get only the latest data for max BusinessDate in the table - so upsert/overwrite would maintain the same logic.
 
 #### Numeric Domain Assumptions
-The following assumptions were made to make the numbers somewhat realistic seeming. This choices were all arbitrary/based on a provided example:
+The following assumptions were made to make the numbers somewhat realistic. These choices were all arbitrary/based on a provided example:
 
 - 0 < RA < 10%
 - 0 < R < 10%
