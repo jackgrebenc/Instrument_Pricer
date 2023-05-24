@@ -1,5 +1,6 @@
-//Mock Feedhandler -- Modern system
+//Mock Feedhandler -- Reference data loader
 //Start-up -- q 1-Feeds/Feedhandlers/feed3.q 
+//Reference data loader -- does a one time publish of csv data on start up. Sits idle otherwise
 
 /- Load in the generic feedhandler code first
 system"l 1-Feeds/feedhandler_utils.q";
