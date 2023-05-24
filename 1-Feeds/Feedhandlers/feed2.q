@@ -1,6 +1,6 @@
 //Mock Feedhandler -- Modern system
 //Start-up -- q 1-Feeds/Feedhandlers/feed2.q 
-//publish data once every 500ms in batches of BATCH_SIZE
+//Modern System -- publishes batches of 10 records every 500ms
 
 /- Load in the generic feedhandler code first
 system"l 1-Feeds/feedhandler_utils.q";
