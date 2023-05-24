@@ -71,7 +71,7 @@ To Stop the processes, execute the stop shell script:
 
 price = (((R - RA) x NP x P) / (1 x Y)) x (1 / (1 + R x (P / Y)))
 
-This was converted into latex (above in this readme file) and implemented using that verison. For this reason, the price does not match the provided example when calculated in the project - since the above formula seems to have some issues (i.e. 1 x Y = Y ? - so this seems incorrect).
+This was converted into latex (shown at the top of the readMe file) and implemented using that verison. The latex verision of the function is used in the project - which does not seem to match the provided formula (I beileve there is human error in what was provided).
 
 #### Realtime Calc Engine
 - Assumption is all data is realtime/"T" data -- so dates do not need to be considered in the vwap
