@@ -37,7 +37,7 @@ To run, cd into the root directory of this project and execute the following she
 
 ./process_scripts/ALL_START.sh   
 
-This will start all the processes in the correct order (TickerPlant (TP) -> InstrumentPricer -> Feeds -> RealtimeCalcEngine)
+This will start all the processes in the correct order (TickerPlant (TP) -> InstrumentPricer -> Feeds -> RealtimeCalcEngine). It takes ~30 seconds to start-up, since there is a 5 second pause between each process starting.
 
 To Stop the processes, execute the stop shell script:
 
