@@ -95,7 +95,7 @@ The following assumptions were made to make the numbers somewhat realistic. Thes
 - 0 < Y < 365 days
 
 ## Additional Work done
-A couple of additional things were added that were outside the scope
+A couple of additional things were added that were outside the scope of the original project:
 - logging library (writes to the empty LOG folder)
 - Start/Stop shell scripts -- used for convience of testing
 
