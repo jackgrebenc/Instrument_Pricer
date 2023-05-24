@@ -39,9 +39,12 @@ To run, cd into the root directory of this project and execute the following she
 
 This will start all the processes in the correct order (TickerPlant (TP) -> InstrumentPricer -> Feeds -> RealtimeCalcEngine). It takes ~30 seconds to start-up, since there is a 5 second pause between each process starting.
 
+After running the start, another local q process can be run to connect to the CalcEngine (Port info given below). Once a connection is established, the realtime average price can be checked by running getRealtimeAvgPrice[] over the handle. To see the rolling average over 5 minute intervals, getVwapPrice[] can be used to return this data.
+
 To Stop the processes, execute the stop shell script:
 
 ./process_scripts/ALL_STOP.sh   
+
 
 ## Processes & Ports
 
