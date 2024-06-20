@@ -69,12 +69,6 @@ To Stop the processes, execute the stop shell script:
 - tick folder -- vanilla ticker plant implementation is available for use and able to be modified for this specific use case. 
 - Since this problem does not involve EOD behaviour - this code will be kept from vanilla set-up and NOT tested.
 
-#### IntrumentPricer
-- The formula provided was given as:
-
-price = (((R - RA) x NP x P) / (1 x Y)) x (1 / (1 + R x (P / Y)))
-
-This was converted into latex (shown at the top of the readMe file) and implemented using that verison. The latex verision of the function is used in the project - which does not seem to match the provided formula (I beileve there is human error in what was provided).
 
 #### Realtime Calc Engine
 - Assumption is all data is realtime/"T" data -- so dates do not need to be considered in the vwap
